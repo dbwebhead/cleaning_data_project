@@ -1,2 +1,2 @@
 # cleaning_data_project
-Getting and Cleaning Data project
+This is my Getting and Cleaning Data project.

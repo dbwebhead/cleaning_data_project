@@ -1,5 +1,3 @@
-<p><markdown>
-#Markdown Live Editor#
 ---
 #Getting and Cleaning Data Final Project
 ##Michael Hall
@@ -37,8 +35,8 @@ General description of the file including:
 
 (you can easily use Rcode for this, just load the dataset and provide the information directly from the tidy data file)
 
-###Variable 1: Subject – a variable representing the experiment participant or test subject.
-Values – an integer from 1 to 30.
+###Variable 1: Subject â€“ a variable representing the experiment participant or test subject.
+Values â€“ an integer from 1 to 30.
 
 Some information on the variable including:
  - Class of the variable
@@ -48,7 +46,7 @@ Some information on the variable including:
 
 (you can easily use Rcode for this, just load the dataset and provide the information directly from the tidy data file)
 
-###Variable 2: Activity_Label – a factor variable representing the six levels of activity performed, including 'LAYING', 'SITTING', 'STANDING', 'WALKING', 'WALKING_DOWNSTAIRS', and 'WALKING_UPSTAIRS'.
+###Variable 2: Activity_Label â€“ a factor variable representing the six levels of activity performed, including 'LAYING', 'SITTING', 'STANDING', 'WALKING', 'WALKING_DOWNSTAIRS', and 'WALKING_UPSTAIRS'.
 
 ####Notes on variable 2:
 <If available, some additional notes on the variable not covered elsewhere. If no notes are present leave this section out.>
@@ -140,7 +138,3 @@ Sources you used if any, otherwise leave out.
 
 ##Annex
 If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
-
-
-  [1]: http://
-</markdown></p>

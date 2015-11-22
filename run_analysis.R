@@ -144,6 +144,6 @@ meltDf  <- melt(mergedDf, id=1:3, measure.vars=list(4:length(mergedDf)))
 tidyAvgDf <- dcast(meltDf, subject_id + activity_name ~ variable, mean)
 
 ## Write out second tidy data set to current working directory
-write.table(tidyAvgDf, file = "./tidy_data.txt")
+write.table(tidyAvgDf, file = "./tidy_data.txt", row.name=FALSE)
 
 

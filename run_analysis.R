@@ -34,7 +34,7 @@ fileURL <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%2
 ucidata <- "c:/Rspace/data/getdata-projectfiles-UCI-HAR-Dataset.zip"
 
 ## Set directory
-ucidir <- "./UCI HAR Dataset"
+ucidir <- "C:/Rspace/data/UCI HAR Dataset"
 
 ## Download the dataset (check for existence)
 if (file.exists (ucidata) == FALSE) {
@@ -144,6 +144,6 @@ meltDf  <- melt(mergedDf, id=1:3, measure.vars=list(4:length(mergedDf)))
 tidyAvgDf <- dcast(meltDf, subject_id + activity_name ~ variable, mean)
 
 ## Write out second tidy data set to current working directory
-write.table(tidyAvgDf, file = "./tidy_data.txt", row.name=FALSE)
+write.table(tidyAvgDf, file = "./tidy_data.txt", sep = "|", row.name=FALSE)
 
 

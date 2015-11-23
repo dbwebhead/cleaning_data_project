@@ -1,5 +1,3 @@
-<p><markdown>
-#Markdown Live Editor#
 **Readme.md**
 
 The data in *tidy_data_set.txt* can be read into R with the following code:
@@ -51,7 +49,7 @@ The script performs the following operations to import, clean, and transform the
 `
  2. The files are downloaded from the aforementioned
     link and uncompressed into a local
-    directory on the user’s desktop.
+    directory on the userâ€™s desktop.
  3. Working directories are set to the
     locations of the training and test
     data sets. 
@@ -79,10 +77,10 @@ The script performs the following operations to import, clean, and transform the
     test files together into a single
     training and test data frame.  This
     is possible because each file has
-    the same number of observations –
+    the same number of observations â€“
     7,352 observations for training and
     2,947 observations for test.  There
-    are no null or ‘NA’ values in any of
+    are no null or â€˜NAâ€™ values in any of
     the data sets. 
 `
  10. Merge both the
@@ -92,13 +90,13 @@ The script performs the following operations to import, clean, and transform the
     mean and standard deviation.  This
     is accomplished by using the grep
     function and a regular expression to
-    match on all occurrences of ‘mean’
-    and ‘std’ in the data set.  These
+    match on all occurrences of â€˜meanâ€™
+    and â€˜stdâ€™ in the data set.  These
     attributes are extracted from the
     data frame and loaded into a new
     data frame. 
 `
- 12. The data is ‘melted’ from a wide format (many columns) to
+ 12. The data is â€˜meltedâ€™ from a wide format (many columns) to
     a long format using the melt function from the reshape2 package.
     Basically this is done so each row
     is a unique id-variable combination.
@@ -128,5 +126,3 @@ The script performs the following operations to import, clean, and transform the
 ----------
 
 The script assumes you are working on a Windows operating system.  If you are working on a Mac/Linux system, the directory paths in the script will have to be modified.
-
-</markdown></p>
